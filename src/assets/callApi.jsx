@@ -2,11 +2,10 @@ import { useEffect, useState } from "react";
 
 const callApi = (city) => {
 
-  {/*const API_KEY ="2bc77f47cb684ec7b0a150156251611";*/}
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
 
-  const targetUrl = `http://localhost:3001/api/get-weather?city=${city}&days=3&aqi=no&alerts=no`;
+  const targetUrl = `/api/get-weather?city=${city}&days=3&aqi=no&alerts=no`;
 
     useEffect(()=>{
 

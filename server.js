@@ -10,7 +10,7 @@ const BASE_URL = "https://api.weatherapi.com/v1/forecast.json";
 
 
 const corsOptions = {
-    origin: 'http://localhost:5173', // Only allow your React app
+    origin: 'https://mmyweatherapp.netlify.app/', // Only allow your React app
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
 };
