@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    background: #1A202C;
+    font-family: 'Rubik';
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (max-width: 800px) {
+    body{
+        margin: 16px;
+    }
+    #root {
+        height: 100%;
+    }
+}
